@@ -5,8 +5,6 @@ date: 2025-02-13 16:25:51
 
 hello~~~欢迎访问我的个人学习笔记和记录。以下是我在各个平台上的学习分享链接：
 
-- [我的小红书 🐾](https://www.xiaohongshu.com/user/profile/63e501a3000000002502dbfd)
-
 - [我的知乎 🎫](https://www.zhihu.com/people/41-42-38-22-6)
 
 - [我的 Notion🥧](https://www.notion.so/jueer33/1824cdfbb2408039876dfaaca406ff4b)
