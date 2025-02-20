@@ -40,12 +40,12 @@ tags:
 
 ### 总结：
 
-1. 这个 ai 上下文的理解能力比较差，不太能基于之前提示词和之前的代码来进行生成和修改，只能基于之前的生成图来进行生成
+1. 这个 AI 上下文的理解能力比较差，不太能基于之前提示词和之前的代码来进行生成和修改，只能基于之前的生成图来进行生成
 2. 默认 css 一定使用**Tailwind CSS，**要在提示中加上不要使用**Tailwind CSS**
 3. 由于没有很多的上下文理解能力，对于我需要让他基于我已有的公共组件来进生成就比较困难，唯一一次生成的比较好的使用公共组件是我给了具体的一个样例
 4. 在生成样式确实比较还原，但是没有精确到每一个颜色，距离，这些精细的部分还需要手动调整，这样的话如果是很简单的部分让生成效率不如自己写，比较多的部分样式生成后自己再调效率确实可以有提升（要注意图像大小不能太大）
 
-> 如果是我，我会选择公共组件部分随便它生成，只起个占位作用，具体公共组件用法还是得问其他的 ai 工具，会考虑把一些元素比较多的静态的页面给他，然后我基于这个页面来进行修改
+> 如果是我，我会选择公共组件部分随便它生成，只起个占位作用，具体公共组件用法还是得问其他的 AI 工具，会考虑把一些元素比较多的静态的页面给他，然后我基于这个页面来进行修改
 
 </aside>
 
@@ -112,7 +112,7 @@ tags:
 
 ###### 上传的图片：
 
-![image.png](调研 AI 生成网页工具/image 1.png)
+![image.png](调研AI生成网页工具/image1.png)
 
 #### 2.1.1 第一轮
 
@@ -263,7 +263,7 @@ export default {
   gap: 20px;
 }
 
-.hero-image {
+.hero-image{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -315,7 +315,7 @@ export default {
 
 ###### **⚠️ 项目中的实际效果**
 
-![image.png](调研 AI 生成网页工具/image 2.png)
+![image.png](调研AI生成网页工具/image2.png)
 
 ###### 提示词
 
@@ -350,7 +350,7 @@ export default {
 		  </button>
 		</div>
 	  </div>
-	  <div class="hero-image relative w-[500px] h-[500px] flex items-center justify-center">
+	  <div class="hero-imagerelative w-[500px] h-[500px] flex items-center justify-center">
 		<img
 		  src="https://public.readdy.ai/ai/img_res/c3ccdd96670023e5a61f5aaa0a4bd4eb.jpg"
 		  alt="启信慧眼产品特征"
@@ -424,7 +424,7 @@ button:hover {
 
 ###### 项目中的实际效果
 
-![image.png](调研 AI 生成网页工具/image 3.png)
+![image.png](调研AI生成网页工具/image3.png)
 
 <aside>
 
@@ -553,7 +553,7 @@ button:hover {
 
 ###### 项目中的实际效果
 
-![image.png](调研 AI 生成网页工具/image 4.png)
+![image.png](调研AI生成网页工具/image4.png)
 
 <aside>
 
@@ -565,7 +565,7 @@ button:hover {
 
 ###### 设计稿
 
-![image.png](调研 AI 生成网页工具/image 5.png)
+![image.png](调研AI生成网页工具/image5.png)
 
 #### 2.2.1 第一轮
 
@@ -672,11 +672,11 @@ export default {
   @apply w-full h-48 overflow-hidden;
 }
 
-.case-image {
+.case-image{
   @apply w-full h-full object-cover transition-transform duration-300;
 }
 
-.case-card:hover .case-image {
+.case-card:hover .case-image{
   transform: scale(1.1);
 }
 
@@ -701,7 +701,7 @@ export default {
 
 ###### 项目中的实际效果
 
-![image.png](调研 AI 生成网页工具/image 6.png)
+![image.png](调研AI生成网页工具/image6.png)
 
 <aside>
 
@@ -882,7 +882,7 @@ export default {
 
 ###### ⚠️**项目中的实际效果**
 
-![image.png](调研 AI 生成网页工具/image 7.png)
+![image.png](调研AI生成网页工具/image7.png)
 
 ###### 提示词
 
@@ -1059,7 +1059,7 @@ export default {
 
 ##### ⚠️**项目中的实际效果**
 
-![image.png](调研 AI 生成网页工具/image 8.png)
+![image.png](调研AI生成网页工具/image8.png)
 
 <aside>
 
@@ -1071,7 +1071,7 @@ export default {
 
 ###### 设计稿
 
-![image.png](调研 AI 生成网页工具/image 9.png)
+![image.png](调研AI生成网页工具/image9.png)
 
 #### 2.3.1 第一轮
 
@@ -1370,7 +1370,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 ###### 项目中的实际效果
 
-![image.png](调研 AI 生成网页工具/image 10.png)
+![image.png](调研AI生成网页工具/image10.png)
 
 #### 2.3.2 第二轮
 
@@ -1635,7 +1635,7 @@ export default {
 
 ###### 项目中的实际效果
 
-![image.png](调研 AI 生成网页工具/image 11.png)
+![image.png](调研AI生成网页工具/image11.png)
 
 <aside>
 
@@ -2120,7 +2120,7 @@ export default {
 
 ###### ⚠️**项目中的实际效果**
 
-![image.png](调研 AI 生成网页工具/image 12.png)
+![image.png](调研AI生成网页工具/image12.png)
 
 <aside>
 
@@ -2224,7 +2224,7 @@ export default {
 
 ###### 项目中的实际效果
 
-![image.png](调研 AI 生成网页工具/image 13.png)
+![image.png](调研AI生成网页工具/image13.png)
 
 <aside>
 
@@ -2236,7 +2236,7 @@ export default {
 
 ###### - 设计稿
 
-![image.png](调研 AI 生成网页工具/image 14.png)
+![image.png](调研AI生成网页工具/image14.png)
 
 #### 2.4.1 第一轮
 
@@ -2399,4 +2399,4 @@ export default {
 
 ###### ⚠️**项目中的实际效果**
 
-![image.png](调研 AI 生成网页工具/image 15.png)
+![image.png](调研AI生成网页工具/image15.png)
