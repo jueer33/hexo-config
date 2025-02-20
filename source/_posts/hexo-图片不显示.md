@@ -27,3 +27,21 @@ f12 查看 页面图片路径好像解析的时候有问题，他总会在路径
 安装这个插件：`npm install hexo-asset-image --save`
 
 使用这个方式来插入图片：`{% asset_img image.png %}`
+
+---
+
+2.10 更新
+
+又不可以了，今天更新文章，发现`{% asset_img image.png %}`插入图片又出了问题，并且之前的文章里面的也有问题了，而且这个方法在写 markdown 的时候太麻烦了
+
+参考这个设置：[Hexo 使用 markdown 插入图片无法显示解决方法](https://blog.csdn.net/m0_55037604/article/details/113460538)
+
+![](hexo-图片不显示/image.png)
+
+---
+
+神经吧有时候可以有时候不可以
+
+---
+
+破案了，Markdown 的图片格式得为`![](文件夹名/图片名)`

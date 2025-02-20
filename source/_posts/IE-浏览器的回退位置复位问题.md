@@ -26,7 +26,7 @@ categories:
 
 > 此外我之前 ie 内核都是 ie7 我没找到怎么换成 ie11
 
-{% asset_img image.png %}
+![](IE-浏览器的回退位置复位问题/image.png)
 
 **@failed3：** 我就不要点击事件了吧，直接使用 onload 和 scroll 监听，在刷新，重载，以及用户跳转和滚动时候触发更新保存当前的位置，这样不论是回退还是刷新都会回到保存位置，使 sessionStorage 使得在新加载的时候是在页面顶部——谷歌可以，ie 还是不行
 
